@@ -1,54 +1,662 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ba-starter</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>MoGo</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
+    />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/app.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400i,400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://use.fontawesome.com/0cab7e888f.js"></script>
+    <script
+      src="https://kit.fontawesome.com/95b7fe2d90.js"
+      crossorigin="anonymous"
+    ></script>
 
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/app.css">
-
-    <link rel="icon" href="favicon.ico">
-</head>
-<body>
-
+    <link rel="icon" href="favicon.ico" />
+  </head>
+  <body>
     <header class="ba-header">
-        <div class="container">
+      <div class="container">
+        <div class="ba-header-wrapper">
+          <a href="#" class="ba-logo">MoGo</a>
 
-            <a href="#" class="ba-logo"></a>
-
-            <nav>
-                <ul class="ba-menu">
-                    <li class="ba-menu__item">
-                        <a href="#" class="ba-menu__link">item 1</a>
-                    </li>
-                    <li class="ba-menu__item">
-                        <a href="#" class="ba-menu__link">item 2</a>
-                    </li>
-                    <li class="ba-menu__item">
-                        <a href="#" class="ba-menu__link">item 3</a>
-                    </li>
-                    <li class="ba-menu__item">
-                        <a href="#" class="ba-menu__link">item 4</a>
-                    </li>
-                </ul>
-            </nav>
-
+          <nav>
+            <ul class="ba-menu">
+              <li class="ba-menu__item">
+                <a href="#" class="ba-menu__link">ABOUT</a>
+              </li>
+              <li class="ba-menu__item">
+                <a href="#" class="ba-menu__link">SERVICE</a>
+              </li>
+              <li class="ba-menu__item">
+                <a href="#" class="ba-menu__link">WORK</a>
+              </li>
+              <li class="ba-menu__item">
+                <a href="#" class="ba-menu__link">BLOG</a>
+              </li>
+              <li class="ba-menu__item">
+                <a href="#" class="ba-menu__link">CONTACT</a>
+              </li>
+              <li class="ba-menu__item">
+                <a class="ba-logo-icons" href="">
+                  <i class="fas fa-shopping-cart"></i>
+                </a>
+              </li>
+              <li class="ba-menu__item">
+                <a class="ba-logo-icons" href="">
+                  <i class="fas fa-search"></i>
+                </a>
+              </li>
+            </ul>
+          </nav>
         </div>
+      </div>
     </header>
 
     <main>
-        <section class="ba-section">
-            <div class="container">
-
+      <section class="ba-section ba-hero">
+        <div class="container">
+          <div class="ba-slider">
+            <div class="ba-hero-slider">
+              <p class="ba-hero__subtitle">Creative Template</p>
+              <h1 class="ba-hero__title">
+                Welcome <br />
+                to mogo
+              </h1>
+              <div class="ba-hero-line"></div>
             </div>
-        </section>
+            <div class="ba-hero-slider">
+              <p class="ba-hero__subtitle">Creative Template</p>
+              <h1 class="ba-hero__title">
+                Welcome <br />
+                to mogo
+              </h1>
+              <div class="ba-hero-line"></div>
+            </div>
+            <div class="ba-hero-slider">
+              <p class="ba-hero__subtitle">Creative Template</p>
+              <h1 class="ba-hero__title">
+                Welcome <br />
+                to mogo
+              </h1>
+              <div class="ba-hero-line"></div>
+            </div>
+            <div class="ba-hero-slider">
+              <p class="ba-hero__subtitle">Creative Template</p>
+              <h1 class="ba-hero__title">
+                Welcome <br />
+                to mogo
+              </h1>
+              <div class="ba-hero-line"></div>
+            </div>
+          </div>
+          <button class="ba-hero-button">LEARN MORE</button>
+          <div class="ba-row main-preloader">
+            <div class="ba-col-3">
+              <div class="preload"></div>
+              <p>01</p>
+            </div>
+            <div class="ba-col-3">
+              <div class="preload"></div>
+              <p>02</p>
+            </div>
+            <div class="ba-col-3">
+              <div class="preload"></div>
+              <p>03</p>
+            </div>
+            <div class="ba-col-3">
+              <div class="preload"></div>
+              <p>04</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="ba-section ba-about">
+        <div class="container">
+          <div class="ba-section-title">
+            <h3 class="ba-about__title">What we do</h3>
+            <h2 class="ba-about__subtitle">Story about us</h2>
+            <div class="ba-about-line"></div>
+          </div>
+          <p class="ba-about__text">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, ab
+            cum voluptatem odio illum est? Fugit dolores libero, iusto corrupti
+            fuga reprehenderit eos obcaecati explicabo repudiandae deleniti
+            nesciunt placeat debitis.
+          </p>
+          <div class="ba-about-images">
+            <div class="ba-about-images__item">
+              <div class="ba-about__image">
+                <img src="images/about1.jpg" alt="" />
+              </div>
+              <div class="ba-about-images__text">
+                super team
+              </div>
+            </div>
+            <div class="ba-about-images__item">
+              <div class="ba-about__image">
+                <img src="images/about2.jpg" alt="" />
+              </div>
+              <div class="ba-about-images__text">
+                super work
+              </div>
+            </div>
+            <div class="ba-about-images__item">
+              <div class="ba-about__image">
+                <img src="images/about3.jpg" alt="" />
+              </div>
+              <div class="ba-about-images__text">
+                super location
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="ba-section ba-stat">
+        <div class="container">
+          <div class="ba-stat-wrapper">
+            <div class="ba-stat-box">
+              <p class="ba-stat-number">
+                42
+              </p>
+              <p class="ba-stat-text">
+                web design projects
+              </p>
+            </div>
+            <div class="ba-stat-box">
+              <p class="ba-stat-number">
+                123
+              </p>
+              <p class="ba-stat-text">
+                happy clients
+              </p>
+            </div>
+            <div class="ba-stat-box">
+              <p class="ba-stat-number">
+                15
+              </p>
+              <p class="ba-stat-text">
+                award winner
+              </p>
+            </div>
+            <div class="ba-stat-box">
+              <p class="ba-stat-number">
+                99
+              </p>
+              <p class="ba-stat-text">
+                cup of coffee
+              </p>
+            </div>
+            <div class="ba-stat-box ba-stat-box-last">
+              <p class="ba-stat-number">
+                24
+              </p>
+              <p class="ba-stat-text">
+                members
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="ba-section ba-work">
+        <div class="container">
+          <div class="ba-section-title">
+            <h3 class="ba-about__title">We work with</h3>
+            <h2 class="ba-about__subtitle">amazing services</h2>
+            <div class="ba-about-line"></div>
+          </div>
+          <div class="ba-row">
+            <div class="ba-col-4">
+              <div class="ba-work-info">
+                <div class="ba-work-icon">
+                  <i class="fa fa-image" aria-hidden="true"> </i>
+                </div>
+                <div class="ba-work-text">
+                  <p class="ba-work-text__title">
+                    photography
+                  </p>
+                  <p class="ba-work-text__par">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="ba-col-4">
+              <div class="ba-work-info">
+                <div class="ba-work-icon">
+                  <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="ba-work-text">
+                  <p class="ba-work-text__title">
+                    web design
+                  </p>
+                  <p class="ba-work-text__par">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="ba-col-4">
+              <div class="ba-work-info">
+                <div class="ba-work-icon">
+                  <i class="fas fa-desktop"></i>
+                </div>
+                <div class="ba-work-text">
+                  <p class="ba-work-text__title">
+                    creativity
+                  </p>
+                  <p class="ba-work-text__par">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ba-work-line"></div>
+          <div class="ba-row">
+            <div class="ba-col-4">
+              <div class="ba-work-info">
+                <div class="ba-work-icon">
+                  <i class="fas fa-book"></i>
+                </div>
+                <div class="ba-work-text">
+                  <p class="ba-work-text__title">
+                    seo
+                  </p>
+                  <p class="ba-work-text__par">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="ba-col-4">
+              <div class="ba-work-info">
+                <div class="ba-work-icon">
+                  <i class="fas fa-home"></i>
+                </div>
+                <div class="ba-work-text">
+                  <p class="ba-work-text__title">
+                    css/html
+                  </p>
+                  <p class="ba-work-text__par">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="ba-col-4">
+              <div class="ba-work-info">
+                <div class="ba-work-icon">
+                  <i class="fab fa-digital-ocean"></i>
+                </div>
+                <div class="ba-work-text">
+                  <p class="ba-work-text__title">
+                    digital
+                  </p>
+                  <p class="ba-work-text__par">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="ba-section ba-design">
+        <div class="container">
+          <div class="ba-section-title">
+            <h3 class="ba-about__title">For all devices</h3>
+            <h2 class="ba-about__subtitle">unique design</h2>
+            <div class="ba-about-line"></div>
+          </div>
+          <div class="ba-design-images">
+            <img src="images/ipad.png" class="ba-design-item" alt="" />
+            <img
+              src="images/iphone.png"
+              class="ba-design-item ba-design-item-phone"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="ba-section ba-do">
+        <div class="container">
+          <div class="ba-section-title">
+            <h3 class="ba-about__title">Service</h3>
+            <h2 class="ba-about__subtitle">what we do</h2>
+            <div class="ba-about-line"></div>
+            <p class="ba-about__text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, ab
+              cum voluptatem odio illum est? Fugit dolores libero, iusto
+              corrupti fuga reprehenderit eos obcaecati explicabo repudiandae
+              deleniti nesciunt placeat debitis.
+            </p>
+          </div>
+          <div class="ba-row ba-do-wrapper">
+            <div class="ba-col-6 ba-do-item">
+              <img src="images/weDoImg.jpg" alt="" />
+            </div>
+            <div class="ba-col-6 ba-do-item">
+              <div class="ba-do-accordion">
+                <div class="ba-do-accordion__item">
+                  <div class="ba-do-accordion__header">
+                    <i class="fa fa-image" aria-hidden="true"></i>
+                    <div class="ba-do-accordion__title">Photography</div>
+                  </div>
+                  <div class="ba-do-accordion__content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Omnis quibusdam nihil dolor veritatis tempora cumque odit,
+                    reprehenderit a vero. Quos, odit molestiae? Nam, voluptatem
+                    repellendus! Facere adipisci iure ullam, ratione dicta
+                    alias. Dolorem, provident voluptates. Lorem ipsum dolor sit
+                    amet consectetur adipisicing elit. Quos, beatae?
+                  </div>
+                </div>
+
+                <div class="ba-do-accordion__item active">
+                  <div class="ba-do-accordion__header">
+                    <i class="fas fa-desktop"></i>
+                    <div class="ba-do-accordion__title">Creative</div>
+                  </div>
+                  <div class="ba-do-accordion__content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Omnis quibusdam nihil dolor veritatis tempora cumque odit,
+                    reprehenderit a vero. Quos, odit molestiae? Nam, voluptatem
+                    repellendus! Facere adipisci iure ullam, ratione dicta
+                    alias. Dolorem, provident voluptates. Lorem ipsum dolor sit
+                    amet consectetur adipisicing elit. Quos, beatae?
+                  </div>
+                </div>
+
+                <div class="ba-do-accordion__item">
+                  <div class="ba-do-accordion__header">
+                    <i class="fas fa-chart-line"></i>
+                    <div class="ba-do-accordion__title">Photography</div>
+                  </div>
+                  <div class="ba-do-accordion__content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Omnis quibusdam nihil dolor veritatis tempora cumque odit,
+                    reprehenderit a vero. Quos, odit molestiae? Nam, voluptatem
+                    repellendus! Facere adipisci iure ullam, ratione dicta
+                    alias. Dolorem, provident voluptates. Lorem ipsum dolor sit
+                    amet consectetur adipisicing elit. Quos, beatae?
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="ba-section ba-team">
+        <div class="container">
+            <div class="ba-section-title">
+                <h3 class="ba-about__title">Who we are</h3>
+                <h2 class="ba-about__subtitle">meet our team</h2>
+                <div class="ba-about-line"></div>
+                <p class="ba-about__text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, ab
+                  cum voluptatem odio illum est? Fugit dolores libero, iusto
+                  corrupti fuga reprehenderit eos obcaecati explicabo repudiandae
+                  deleniti nesciunt placeat debitis.
+                </p>
+              </div>
+
+              <div class="ba-about-images">
+                  <div class="ba-about-images__item">
+                    <div class="ba-about__image">
+                      <img src="images/team1.jpg" alt="" />
+                    </div>
+                    <div class="ba-about-images__text">
+                      <div class="ba-team-links">
+                        <div class="ba-team-links-box">
+                          <a href="" class="ba-team__link">
+                              <i class="fab fa-facebook-f"></i>
+                          </a>
+                        </div>
+                        <div class="ba-team-links-box">
+                          <a href="" class="ba-team__link">
+                              <i class="fab fa-twitter"></i>
+                            </a>
+                          </div>
+                          <div class="ba-team-links-box">
+                            <a href="" class="ba-team__link">
+                                <i class="fab fa-pinterest-p"></i>
+                              </a>
+                            </div>
+                            <div class="ba-team-links-box">
+                              <a href="" class="ba-team__link">
+                                  <i class="fab fa-instagram"></i>
+                                </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="ba-team-info">
+                        <div class="ba-team-name">Matthew Dix</div>
+                        <div class="ba-team-prof">Graphic Design</div>
+                      </div>
+                  </div>
+                  <div class="ba-about-images__item">
+                    <div class="ba-about__image">
+                      <img src="images/team2.jpg" alt="" />
+                    </div>
+                    <div class="ba-about-images__text">
+                        <div class="ba-team-links">
+                            <div class="ba-team-links-box">
+                              <a href="" class="ba-team__link">
+                                  <i class="fab fa-facebook-f"></i>
+                              </a>
+                            </div>
+                            <div class="ba-team-links-box">
+                              <a href="" class="ba-team__link">
+                                  <i class="fab fa-twitter"></i>
+                                </a>
+                              </div>
+                              <div class="ba-team-links-box">
+                                <a href="" class="ba-team__link">
+                                    <i class="fab fa-pinterest-p"></i>
+                                  </a>
+                                </div>
+                                <div class="ba-team-links-box">
+                                  <a href="" class="ba-team__link">
+                                      <i class="fab fa-instagram"></i>
+                                    </a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="ba-team-info">
+                        <div class="ba-team-name">Christopher Campbell</div>
+                        <div class="ba-team-prof">Branding/UX design</div>
+                      </div>
+                  </div>
+                  <div class="ba-about-images__item">
+                    <div class="ba-about__image">
+                      <img src="images/team3.jpg" alt="" />
+                    </div>
+                    <div class="ba-about-images__text">
+                        <div class="ba-team-links">
+                            <div class="ba-team-links-box">
+                              <a href="" class="ba-team__link">
+                                  <i class="fab fa-facebook-f"></i>
+                              </a>
+                            </div>
+                            <div class="ba-team-links-box">
+                              <a href="" class="ba-team__link">
+                                  <i class="fab fa-twitter"></i>
+                                </a>
+                              </div>
+                              <div class="ba-team-links-box">
+                                <a href="" class="ba-team__link">
+                                    <i class="fab fa-pinterest-p"></i>
+                                  </a>
+                                </div>
+                                <div class="ba-team-links-box">
+                                  <a href="" class="ba-team__link">
+                                      <i class="fab fa-instagram"></i>
+                                    </a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="ba-team-info">
+                      <div class="ba-team-name">Michael Fertig</div>
+                      <div class="ba-team-prof">Developer</div>
+                    </div>
+                  </div>
+                </div>
+        </div>
+      </section>
+
+      <section class="ba-section ba-partners">
+        <div class="container">
+          <div class="ba-row ba-partners-wrapper">
+            <div class="ba-col-2">
+              <img src="images/1.png" alt="" class="ba-partners-img">
+            </div>
+            <div class="ba-col-2">
+                <img src="images/2.png" alt="" class="ba-partners-img">
+              </div>
+              <div class="ba-col-2">
+                  <img src="images/3.png" alt="" class="ba-partners-img">
+                </div>
+                <div class="ba-col-2">
+                    <img src="images/4.png" alt="" class="ba-partners-img">
+                  </div>
+                  <div class="ba-col-2">
+                      <img src="images/5.png" alt="" class="ba-partners-img">
+                    </div>
+                    <div class="ba-col-2">
+                        <img src="images/6.png" alt="" class="ba-partners-img">
+                      </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="ba-section ba-proj">
+        <div class="container">
+            <div class="ba-section-title">
+                <h3 class="ba-about__title">What we do</h3>
+                <h2 class="ba-about__subtitle">some of our work</h2>
+                <div class="ba-about-line"></div>
+                <p class="ba-about__text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, ab
+                  cum voluptatem odio illum est? Fugit dolores libero, iusto
+                  corrupti fuga reprehenderit eos obcaecati explicabo repudiandae
+                  deleniti nesciunt placeat debitis.
+                </p>
+              </div>
+        </div>
+        <div class="ba-proj-works">
+          <div class="ba-proj-works-col">
+            <div class="ba-proj-works__item">
+              <img src="images/works/1.jpg" class="ba-proj-works-img" alt="">
+            </div>
+            <div class="ba-proj-works__item">
+                <img src="images/works/2.jpg" class="ba-proj-works-img" alt="">
+              </div>
+          </div>
+          <div class="ba-proj-works-col">
+              <div class="ba-proj-works__item">
+                <img src="images/works/3.jpg" class="ba-proj-works-img" alt="">
+              </div>
+              <div class="ba-proj-works__item">
+                  <img src="images/works/4.jpg" class="ba-proj-works-img" alt="">
+                </div>
+            </div>
+            <div class="ba-proj-works-col">
+                <div class="ba-proj-works__item">
+                  <img src="images/works/5.jpg" class="ba-proj-works-img" alt="">
+                </div>
+              </div>
+              <div class="ba-proj-works-col">
+                  <div class="ba-proj-works__item">
+                    <img src="images/works/6.jpg" class="ba-proj-works-img" alt="">
+                  </div>
+                  <div class="ba-proj-works__item">
+                      <img src="images/works/7.jpg" class="ba-proj-works-img" alt="">
+                    </div>
+                </div>
+        </div>
+      </section>
+
+      <section class="ba-section ba-section-map">
+        <img src="images/map.jpg" alt="">
+        <div class="ba-section-map__title"><p class="ba-section-map__link">Open Map</p></div>
+        <div class="ba-about-line"></div>
+      </section>
+
+      <div class="ba-map visible" id="map"></div>
     </main>
 
     <footer class="ba-footer">
-        <div class="container"></div>
+      <div class="container">
+        <div class="ba-footer-wrapper">
+          <div class="ba-row">
+            <div class="ba-col-4">
+              <div class="ba-footer-info">
+                <h3 class="ba-footer-info__title">MoGo</h3>
+                <p class="ba-footer-info__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum vero cum quasi, nihil quam dolorum odio consequatur culpa molestiae sed!</p>
+                <p class="ba-footer-info__followers"><b>15K</b> followers</p>
+                <div class="ba-footer-info__line">
+                </div>
+                <div class="ba-footer-info__links">
+                  <div class="ba-footer-info__text">Follow us: </div>
+                  <div class="ba-footer-info__links-wrapper">
+                    <a href="" class="ba-footer-info__link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="" class="ba-footer-info__link"><i class="fab fa-instagram"></i></a>
+                    <a href="" class="ba-footer-info__link"><i class="fab fa-twitter"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ba-col-4">
+              
+              </div>
+              <div class="ba-col-4">
+              
+                </div>
+          </div>
+        </div>
+      </div>
     </footer>
-    
-</body>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="js/app.js"></script>
+
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAOFADmh5XKTWnRWE4PgDr1PgqxPNZy92M&callback=initMap"
+    ></script>
+  </body>
 </html>
