@@ -27,7 +27,7 @@ $(window).scroll(function() {
 });
 
 $(document).ready(function() {
-  
+  new WOW().init();  
 
   $(".ba-slider")
     .slick({
@@ -56,6 +56,13 @@ $(document).ready(function() {
     $('.ba-section-map__link').on('click', function() {
       $('.ba-map').toggleClass('visible');
     })
+
+    $('a[href^="#"]').click(function(){
+      var target = $(this).attr('href');
+      $('html, body').animate({
+          scrollTop: $(target).offset().top
+      }, 1000);
+  });
 
 });
 
