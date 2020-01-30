@@ -27,7 +27,11 @@ $(window).scroll(function() {
 });
 
 $(document).ready(function() {
-  new WOW().init();  
+  new WOW().init(); 
+  
+  $('.nav-toogle').on('click', function (e) {
+    $('.ba-header-nav').toggleClass('open');
+  });
 
   $(".ba-slider")
     .slick({
